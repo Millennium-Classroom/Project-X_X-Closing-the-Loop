@@ -17,7 +17,7 @@ Where the input is your desired state to for the motor to be in (a position or a
 
 ***Quick overview of closed loop control:***
 
-<img src="images/openloop.png" alt="drawing" width="400"/>
+<img src="images/closedloop.png" alt="drawing" width="400"/>
 
 In closed loop control, we "close" this control flow by using an encoder, which is a device that measures how many rotations that a motor have done. Below is some encoders that we have used:
 - [Integrated Falcon 500 Encoders](https://store.ctr-electronics.com/falcon-500-powered-by-talon-fx/)
