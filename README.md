@@ -11,13 +11,13 @@ In simple words, closed loop control just means that you are keeping track of wh
 
 *** Quick review of open loop control: *** 
 
-<img src="images/openloop.png" alt="drawing" width="200"/>
+<img src="images/openloop.png" alt="drawing" width="400"/>
 
 Where the input is your desired state to for the motor to be in (a position or a speed), the controller is the motor controller (SPARKMAX, TalonFX, etc.), and your output is the actual output of the motor in reality (which may different from the desired state because of friction, etc.)
 
 *** Quick overview of closed loop control: ***
 
-<img src="images/openloop.png" alt="drawing" width="200"/>
+<img src="images/openloop.png" alt="drawing" width="400"/>
 
 In closed loop control, we "close" this control flow by using an encoder, which is a device that measures how many rotations that a motor have done. Below is some encoders that we have used:
 - [Integrated Falcon 500 Encoders](https://store.ctr-electronics.com/falcon-500-powered-by-talon-fx/)
