@@ -35,7 +35,7 @@ A high-level understanding of PID should be enough to get you started. You can d
 For now, we will focus on tuning PID.
 
 ### How to Tune a PID Controller
-- [In depth guide](https://www.crossco.com/resources/technical/how-to-tune-pid-loops/
+- [In depth guide](https://www.crossco.com/resources/technical/how-to-tune-pid-loops/)
 - [Basics](https://realpars.com/pid-tuning/)
 
 To be honest, at this point, tuning PID is all about ***guess and check*** until the output looks around what you want. We do not have a fancy automated or mathematical way to perfectly tune PID controllers. We usually just guess the kP, kI, and kD gains.
