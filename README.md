@@ -66,7 +66,7 @@ $\frac{ticks}{rotation} * \frac{meter}{ticks} = \frac{meters}{rotation}$
 	- Ensure that all hardware is working on the robot
 	- Suspend the robot on a box so it will not run away
 	- TalonFX by default use the integrated encoders in the Falcon 500 motors, thus if using `.getSelectedSensorPosition()` method of the `TalonFX` object will return you the raw encoder ticks that the motor has traveled.
-	- TalonFX PID values are set through the config of the motor. [Read More] (https://docs.ctre-phoenix.com/en/stable/ch16_ClosedLoop.html#closed-loop-configurations) Or refer to 2022 constants files.
+	- TalonFX PID values are set through the config of the motor. [Read More](https://docs.ctre-phoenix.com/en/stable/ch16_ClosedLoop.html#closed-loop-configurations) Or refer to 2022 constants files.
 	- Setpoint positions on the TalonFX can be set using the `.set(TalonFXControlMode controlMode, double setpoint)`. For closed loop, the control mode wil always be closed loop. Remember that the set point here will be in terms of ***native encoder values*** so remember to convert back from desired units to ticks.
 - ***Print out the distance the robot has traveled after running motor in teleop***
 - ***Tune positional PID so that you can set the motor to a specific angle in degrees***
