@@ -1,21 +1,21 @@
 # Project x_x: Closing the Loop
 This assignment will guide you through a positional PID closed loop control. 
 
-*** Pre-req: *** 
+***Pre-req:*** 
 - Must have completed previous robot projects
 - Have controlled a robot/motor with open loop control
 
-## *** Closed Loop Control ***
+## ***Closed Loop Control***
 ### What is Closed Loop Control
 In simple words, closed loop control just means that you are keeping track of what your motor is actually doing and using that to adjust your input to the motor so that you get your desired outcome.
 
-*** Quick review of open loop control: *** 
+***Quick review of open loop control:*** 
 
 <img src="images/openloop.png" alt="drawing" width="400"/>
 
 Where the input is your desired state to for the motor to be in (a position or a speed), the controller is the motor controller (SPARKMAX, TalonFX, etc.), and your output is the actual output of the motor in reality (which may different from the desired state because of friction, etc.)
 
-*** Quick overview of closed loop control: ***
+***Quick overview of closed loop control:***
 
 <img src="images/openloop.png" alt="drawing" width="400"/>
 
