@@ -71,7 +71,9 @@ $\frac{ticks}{rotation} * \frac{meter}{ticks} = \frac{meters}{rotation}$
 - ***Print out the distance the robot has traveled after running motor in teleop***
 - ***Tune positional PID so that you can set the motor to a specific angle in degrees***
 	- Where angle should be inputted on the SmartDashBoard or through a variable in the code
-
+	
+## ***Authors***
+- [Team 3647, Edward Sun](https://github.com/EdwardoSunny)
 
 
 
